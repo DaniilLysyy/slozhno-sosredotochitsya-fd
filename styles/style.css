@@ -229,7 +229,7 @@
 
 @media (width >= 768px) {
   .header {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 0;
   }
 
   .rec-icon {
@@ -316,9 +316,14 @@
   .footer {
     min-height: 100vh;
   }
+
+    .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
 
 @media (width >= 1024px) {
+
   .content { 
     gap: 80px;
   }
@@ -332,6 +337,7 @@
   }
 
   .header__theme-menu {
+    padding-left: 20px;
     justify-self: center;
     align-self: self-start;
   }
@@ -342,7 +348,7 @@
   
   .what.cards-container {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, min-content);
+    grid-template-rows: repeat(2, min-content);
   }
   
   .what .text-block {
@@ -352,5 +358,9 @@
 
   .what .card {
     align-content: start;
+  }
+
+  .footer__title {
+    padding-bottom: 40px;
   }
 }
