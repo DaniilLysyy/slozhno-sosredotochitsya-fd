@@ -284,7 +284,7 @@
   .gallery_image-container {
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(4, max-content);
+    grid-template-rows: repeat(3, max-content);
   }
 
   .content__images-sunset {
@@ -343,6 +343,11 @@
   .header__theme-menu-list {
     flex-direction: row;
   }
+
+   .why.cards-container {
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
   
   .what.cards-container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -358,7 +363,8 @@
     align-content: start;
   }
 
-  .footer__title {
-    padding-bottom: 40px;
+  .how.cards-container {
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
   }
 }
