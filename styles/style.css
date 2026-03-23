@@ -92,7 +92,6 @@
   color: var(--title-decorated);
   border: 1px solid transparent;
   padding: 3px 13px;
-  line-height: 18px;
   text-transform: lowercase;
   text-align: center;
   line-height: 100%;
@@ -323,7 +322,6 @@
 }
 
 @media (width >= 1024px) {
-
   .content { 
     gap: 80px;
   }
