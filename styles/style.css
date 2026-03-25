@@ -322,10 +322,6 @@
 }
 
 @media (width >= 1024px) {
-  .content { 
-    gap: 80px;
-  }
-
   .header-title {
     width: 491px;
   }
@@ -344,9 +340,12 @@
     flex-direction: row;
   }
 
+  .content { 
+    gap: 80px;
+  }
+  
    .why.cards-container {
     grid-template-columns: 1fr 2fr;
-    gap: 10px;
   }
   
   .what.cards-container {
