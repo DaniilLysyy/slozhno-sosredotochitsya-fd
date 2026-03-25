@@ -339,12 +339,12 @@
   .header__theme-menu-list {
     flex-direction: row;
   }
-
-  .content { 
+   
+  .content {
     gap: 80px;
   }
   
-   .why.cards-container {
+  .why.cards-container {
     grid-template-columns: 1fr 2fr;
   }
   
