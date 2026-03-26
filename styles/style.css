@@ -266,7 +266,7 @@
   }
 
   .why.cards-container {
-    grid-template-columns: 1fr 2.06fr;
+    grid-template-columns: 1fr 2fr;
   }
 
   .what.cards-container {
@@ -278,7 +278,7 @@
   }
 
   .how.cards-container {
-    grid-template-columns:  1fr 2.06fr;
+    grid-template-columns:  1fr 2fr;
   }
 
   .gallery_container {
@@ -351,8 +351,7 @@
   }
   
   .why.cards-container {
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
+    grid-template-columns: 1fr 2.06fr;
   }
   
   .what.cards-container {
@@ -370,7 +369,6 @@
   }
 
   .how.cards-container {
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
+    grid-template-columns: 1fr 2.06fr;
   }
 }
