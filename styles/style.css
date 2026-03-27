@@ -177,9 +177,6 @@
   line-height: 23.4px;
 }
 
-.tips-decor {
-  margin-block-end: 10px;
-}
 
 .regular-text {
   font-weight: 400;
@@ -317,8 +314,8 @@
   }
 
   .footer {
-    min-height: 100vh;
     height: min(100vh, 668px);
+    height: max(100vh, 668px);
   }
 
   .footer__title {
