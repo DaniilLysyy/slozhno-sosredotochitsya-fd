@@ -314,9 +314,7 @@
   }
 
   .footer {
-    min-height: 100vh;
-    height: min(100vh, 668px);
-    max-height: 668px;
+    height: max(100vh, 668px);
   }
 
   .footer__title {
